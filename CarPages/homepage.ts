@@ -20,42 +20,21 @@ constructor(page: Page){
     this.modelOption = page.locator('select[name="models[]"]')
     this.distanceOption =  page.locator('select[name="maximum_distance"]')
     this.zipOption = page.locator('input[name="zip"]')
-    
+    this.showButton = page.locator('spark-button[trid="ispsHAiuJe1hiWnAnf44kA"]')
 }
 
 async mainTitleVisibility():Promise<void>{
     await expect(this.mainTitle).toHaveText('Imagine the possibilities')
 }
-
-async newUsedSelect():Promise<void>{
-    await this.newUsedOption.click()
-    await this.newUsedOption.selectOption("New")
-}
-async makeSelect():Promise<void>{
-
-    await this.makeOption.click()
-    await this.makeOption.selectOption("Chevrolet")
-}
-async modelSelect():Promise<void>{
-    await this.modelOption.click()
-    await this.modelOption.selectOption("Equinox EV")
-
-}
- async distanceSelect():Promise<void>{
-    await this.distanceOption.click()
-    await this.distanceOption.selectOption("20 miles")
-
-}
- async zipFill(){
+async searchDropdownOptions(make: string, model: string, distance: string, zipcode: string):Promise<void>{
+    await this.makeOption.selectOption(make)
+    await this.modelOption.selectOption(model)
+    await this.distanceOption.selectOption(distance)
     await this.zipOption.fill("60156")
- }
-
- async clickShowButton(){
-     await this.s
-
- }
-
-
+}
+async clickShowButton():Promise<void>{
+    await this.showButton.click()
+}
 }
 
 

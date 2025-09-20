@@ -1,0 +1,1057 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - link "Cars.com" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - img "Cars.com" [ref=e7] [cursor=pointer]
+    - navigation "primary" [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Cars for Sale" [ref=e11] [cursor=pointer]:
+            - /url: /shopping/
+        - listitem [ref=e12]:
+          - link "New Cars" [ref=e13] [cursor=pointer]:
+            - /url: /new-cars/
+        - listitem [ref=e14]:
+          - link "Research & Reviews" [ref=e15] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=e16]:
+          - link "News & Videos" [ref=e17] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=e18]:
+          - link "Sell Your Car" [ref=e19] [cursor=pointer]:
+            - /url: /sell/
+        - listitem [ref=e20]:
+          - link "Financing" [ref=e21] [cursor=pointer]:
+            - /url: /finance/
+      - button "Sign In" [ref=e23] [cursor=pointer]:
+        - generic:
+          - generic: Sign In
+        - generic:
+          - generic:
+            - img
+      - button "." [ref=e24] [cursor=pointer]:
+        - generic [ref=e25] [cursor=pointer]:
+          - generic [ref=e26] [cursor=pointer]: .
+          - img "Menu" [ref=e28] [cursor=pointer]
+  - main [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - heading "Imagine the possibilities" [level=1] [ref=e40]:
+              - generic [ref=e41]: Imagine the possibilities
+        - generic [ref=e45]:
+          - tablist "features" [ref=e47]:
+            - generic:
+              - tab "Shop cars for sale" [selected] [ref=e48]:
+                - generic [ref=e49] [cursor=pointer]:
+                  - generic: Shop cars for sale
+              - tab "Sell your car" [ref=e50]:
+                - generic [ref=e51] [cursor=pointer]:
+                  - generic: Sell your car
+          - tabpanel "Shop cars for sale" [ref=e53]:
+            - generic [ref=e54]:
+              - generic:
+                - generic [ref=e60]:
+                  - generic:
+                    - generic:
+                      - generic: Try
+                      - list:
+                        - listitem: “SUVs with Carplay under $40k”
+                        - listitem: “new SUVs under $35k”
+                        - listitem: “SUVs w/3 rows under $50k”
+                        - listitem: “electric SUVs under $60k”
+                        - listitem: “CPO trucks with a hitch”
+                    - textbox "Try “SUVs with Carplay under $40k” “new SUVs under $35k” “SUVs w/3 rows under $50k” “electric SUVs under $60k” “CPO trucks with a hitch”" [ref=e61]
+                    - button "search" [disabled] [ref=e62]:
+                      - img "search" [ref=e64]:
+                        - img [ref=e65]
+                - strong [ref=e70]: "- Or search by -"
+                - group [ref=e74]:
+                  - generic [ref=e75]:
+                    - generic:
+                      - generic [ref=e78]:
+                        - generic: Make
+                        - combobox "Make" [ref=e79] [cursor=pointer]:
+                          - option "All makes" [selected]
+                          - option "Acura"
+                          - option "Audi"
+                          - option "BMW"
+                          - option "Buick"
+                          - option "Cadillac"
+                          - option "Chevrolet"
+                          - option "Chrysler"
+                          - option "Dodge"
+                          - option "Ford"
+                          - option "Genesis"
+                          - option "GMC"
+                          - option "Honda"
+                          - option "Hyundai"
+                          - option "INFINITI"
+                          - option "Jaguar"
+                          - option "Jeep"
+                          - option "Kia"
+                          - option "Land Rover"
+                          - option "Lexus"
+                          - option "Lincoln"
+                          - option "Mazda"
+                          - option "Mercedes-Benz"
+                          - option "MINI"
+                          - option "Mitsubishi"
+                          - option "Nissan"
+                          - option "Porsche"
+                          - option "RAM"
+                          - option "Subaru"
+                          - option "Tesla"
+                          - option "Toyota"
+                          - option "Volkswagen"
+                          - option "Volvo"
+                          - option "AC"
+                          - option "Acura"
+                          - option "Alfa Romeo"
+                          - option "Am General"
+                          - option "American Motors"
+                          - option "Aston Martin"
+                          - option "Audi"
+                          - option "Austin"
+                          - option "Austin-Healey"
+                          - option "Avanti Motors"
+                          - option "Bentley"
+                          - option "BMW"
+                          - option "Bricklin"
+                          - option "Bugatti"
+                          - option "Buick"
+                          - option "Cadillac"
+                          - option "Chevrolet"
+                          - option "Chrysler"
+                          - option "Cord"
+                          - option "Datsun"
+                          - option "Delahaye"
+                          - option "Delorean"
+                          - option "Desoto"
+                          - option "DeTomaso"
+                          - option "Dodge"
+                          - option "Edsel"
+                          - option "Excalibur"
+                          - option "Facel-Vega"
+                          - option "Ferrari"
+                          - option "FIAT"
+                          - option "Fisker"
+                          - option "Ford"
+                          - option "GAZ"
+                          - option "Genesis"
+                          - option "Geo"
+                          - option "GMC"
+                          - option "Griffith"
+                          - option "Honda"
+                          - option "Hudson"
+                          - option "Hummer"
+                          - option "Hyundai"
+                          - option "INEOS"
+                          - option "INFINITI"
+                          - option "International"
+                          - option "Isuzu"
+                          - option "Jaguar"
+                          - option "Jeep"
+                          - option "Jensen"
+                          - option "Karma"
+                          - option "Kia"
+                          - option "Koenigsegg"
+                          - option "Lamborghini"
+                          - option "Lancia"
+                          - option "Land Rover"
+                          - option "Lexus"
+                          - option "Lincoln"
+                          - option "Lotus"
+                          - option "Lucid"
+                          - option "Maserati"
+                          - option "Maybach"
+                          - option "Mazda"
+                          - option "McLaren"
+                          - option "Mercedes-Benz"
+                          - option "Mercury"
+                          - option "MG"
+                          - option "MINI"
+                          - option "Mitsubishi"
+                          - option "Morgan"
+                          - option "Nash"
+                          - option "Nissan"
+                          - option "Oldsmobile"
+                          - option "Opel"
+                          - option "Packard"
+                          - option "Pagani"
+                          - option "Panoz"
+                          - option "Plymouth"
+                          - option "Polestar"
+                          - option "Pontiac"
+                          - option "Porsche"
+                          - option "RAM"
+                          - option "Rivian"
+                          - option "Rolls-Royce"
+                          - option "Saab"
+                          - option "Saturn"
+                          - option "Scion"
+                          - option "smart"
+                          - option "Studebaker"
+                          - option "Subaru"
+                          - option "Sunbeam"
+                          - option "Suzuki"
+                          - option "Tesla"
+                          - option "Toyota"
+                          - option "Triumph"
+                          - option "VinFast"
+                          - option "Volkswagen"
+                          - option "Volvo"
+                          - option "Willys"
+                      - generic [ref=e82]:
+                        - generic: Model
+                        - combobox "Model" [ref=e83] [cursor=pointer]:
+                          - option "All models" [selected]
+                      - generic [ref=e86]:
+                        - generic: Distance
+                        - combobox "Distance" [ref=e87] [cursor=pointer]:
+                          - option "10 miles"
+                          - option "20 miles"
+                          - option "30 miles"
+                          - option "40 miles"
+                          - option "50 miles" [selected]
+                          - option "75 miles"
+                          - option "100 miles"
+                          - option "150 miles"
+                          - option "200 miles"
+                          - option "250 miles"
+                          - option "500 miles"
+                          - option "All miles from"
+                      - generic [ref=e91]:
+                        - generic: ZIP
+                        - textbox "ZIP" [ref=e92]: "60678"
+                      - button "Show 10,000+ matches" [ref=e94] [cursor=pointer]:
+                        - generic:
+                          - generic: Show 10,000+ matches
+      - iframe [ref=e99]:
+        - link [ref=f1e2] [cursor=pointer]:
+          - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjstao4VvO3MrOtKHCaqoKs3ir4PckTkELadL2CEuH9KfrUm2Teat2-VB4sT0uCWfbIufbNLgSGHkf_XIeXCwI7dLwRoWkMKmNuFqQbNNmbdW-tDsIE9KCTZPRwrmxofj9FvUnS284En4-VTUFIUiXCAzoVyRzo9FGdRdVTgP00peeIcZTUXJiUYy-6F5N8trHRfOCwuhHgxQj6rPSP25xAfRVgstL5NkTWG-vzeKB9poHYlyMZAhR3IwGij4lJaae_SiiMbqzwbR2d1bvcu81xzS1lTilJxDWBeZyFgv2MgGp7pHaebbKYOgEnnFdVnmtHfyvalOjO3UK05Y3oVd-H2p6RJPl-TAp9wsd1_QswnKwK2UFVqYuH_ZFkkt9qaWjnp_SY-o6ZJRxhFg&sai=AMfl-YRn3UyeiB9a6XF9tFO-70EyEjSMhRT89KT48t8ybvXtQU64JbsPBtN4Hy6SwzNfkcD8Wac3RbW9SAQwDnMrzczxQM4GsTWq3WjBmd_vlc8ABGwPtDywWFMQZaLRVK_2pz6Ven_UXjC87QCNV39uiDyZY-nzHZhWRtWP-4W6rs_1SyMqCWFI-I-e083K6InwLyfwjr0cVW8exQjm2LwVzYBpMOXsR6gaoUT-90t52HbbXUeUsHWhb08aQWzTVnikM2wZTr5YVD9OxJH3iIFobrek08FNuejQpnmJGfllcI4nu4Wr8EjndcBOVteMimTFtUJsE7RM5SdczrmeuiTOsLi27YLyXHePq9sV2cLgOOYZEVURRrHL8ZBDOLsKGqj_&sig=Cg0ArKJSzMV8q19Hm5sB&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.cars.com/sponsored/articles/tech-tours-2025-hyundai-elantra-features-overview-506925/
+      - generic [ref=e103]:
+        - generic [ref=e104]: Cars.com news
+        - heading "Which Cars Are Most American?" [level=2] [ref=e105]
+        - generic [ref=e106]: We analyze five factors to determine which new cars are the most American.
+        - generic [ref=e107]:
+          - link "See all tariff news" [ref=e109] [cursor=pointer]:
+            - /url: /news/tariffs/
+            - generic:
+              - generic: See all tariff news
+          - link "Shop American-made cars" [ref=e111] [cursor=pointer]:
+            - /url: /american-made-index/
+            - generic:
+              - generic: Shop American-made cars
+      - generic [ref=e114]:
+        - heading "Popular categories" [level=2] [ref=e116]
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - button "Scroll tab list to right" [ref=e122] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Scroll tab list to right":
+                      - img
+            - tablist "Popular categories" [ref=e123]:
+              - generic:
+                - tab "Electric" [selected] [ref=e124]:
+                  - generic [ref=e125] [cursor=pointer]:
+                    - generic: Electric
+                - tab "SUV" [ref=e126]:
+                  - generic [ref=e127] [cursor=pointer]:
+                    - generic: SUV
+                - tab "Sedan" [ref=e128]:
+                  - generic [ref=e129] [cursor=pointer]:
+                    - generic: Sedan
+                - tab "Pickup Truck" [ref=e130]:
+                  - generic [ref=e131] [cursor=pointer]:
+                    - generic: Pickup Truck
+                - tab "Luxury" [ref=e132]:
+                  - generic [ref=e133] [cursor=pointer]:
+                    - generic: Luxury
+                - tab "Crossover" [ref=e134]:
+                  - generic [ref=e135] [cursor=pointer]:
+                    - generic: Crossover
+                - tab "Hybrid" [ref=e136]:
+                  - generic [ref=e137] [cursor=pointer]:
+                    - generic: Hybrid
+                - tab "Diesel" [ref=e138]:
+                  - generic [ref=e139] [cursor=pointer]:
+                    - generic: Diesel
+                - tab "Coupe" [ref=e140]:
+                  - generic [ref=e141] [cursor=pointer]:
+                    - generic: Coupe
+                - tab "Hatchback" [ref=e142]:
+                  - generic [ref=e143] [cursor=pointer]:
+                    - generic: Hatchback
+                - tab "Wagon" [ref=e144]:
+                  - generic [ref=e145] [cursor=pointer]:
+                    - generic: Wagon
+                - tab "Convertible" [ref=e146]:
+                  - generic [ref=e147] [cursor=pointer]:
+                    - generic: Convertible
+                - tab "Minivan" [ref=e148]:
+                  - generic [ref=e149] [cursor=pointer]:
+                    - generic: Minivan
+                - tab "Plug-in Hybrid" [ref=e150]:
+                  - generic [ref=e151] [cursor=pointer]:
+                    - generic: Plug-in Hybrid
+                - tab "Van" [ref=e152]:
+                  - generic [ref=e153] [cursor=pointer]:
+                    - generic: Van
+          - tabpanel "Electric" [ref=e155]:
+            - generic [ref=e156]:
+              - generic:
+                - list [ref=e157]:
+                  - listitem [ref=e158]:
+                    - generic [ref=e163]:
+                      - generic:
+                        - generic [ref=e164]:
+                          - generic [ref=e165]: All new EVs
+                          - generic [ref=e166]: Experience the best way to search new cars
+                        - link "Shop new cars" [ref=e168] [cursor=pointer]:
+                          - /url: /new-cars/?type=electric-vehicle
+                  - listitem [ref=e169]:
+                    - generic [ref=e176]:
+                      - generic:
+                        - generic [ref=e177]:
+                          - generic: Sponsored
+                        - paragraph [ref=e178]: 2025 Volkswagen ID.4
+                        - link "Shop now" [ref=e180] [cursor=pointer]:
+                          - /url: https://ad.doubleclick.net/ddm/trackclk/N768950.272778CARS.COM/B33039993.412232499;dc_trk_aid=619539286;dc_trk_cid=239766576;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1
+                  - listitem [ref=e181]:
+                    - generic [ref=e187]:
+                      - generic:
+                        - paragraph [ref=e188]: Tesla Model 3
+                        - link "Shop now for Tesla Model 3" [ref=e190] [cursor=pointer]:
+                          - /url: /shopping/all/tesla-model_3/
+                          - text: Shop now
+                          - generic [ref=e191] [cursor=pointer]: for Tesla Model 3
+                  - listitem [ref=e192]:
+                    - generic [ref=e198]:
+                      - generic:
+                        - paragraph [ref=e199]: Tesla Model S
+                        - link "Shop now for Tesla Model S" [ref=e201] [cursor=pointer]:
+                          - /url: /shopping/all/tesla-model_s/
+                          - text: Shop now
+                          - generic [ref=e202] [cursor=pointer]: for Tesla Model S
+                  - listitem [ref=e203]:
+                    - generic [ref=e209]:
+                      - generic:
+                        - paragraph [ref=e210]: Nissan Leaf
+                        - link "Shop now for Nissan Leaf" [ref=e212] [cursor=pointer]:
+                          - /url: /shopping/all/nissan-leaf/
+                          - text: Shop now
+                          - generic [ref=e213] [cursor=pointer]: for Nissan Leaf
+                  - listitem [ref=e214]:
+                    - generic [ref=e220]:
+                      - generic:
+                        - paragraph [ref=e221]: Tesla Model Y
+                        - link "Shop now for Tesla Model Y" [ref=e223] [cursor=pointer]:
+                          - /url: /shopping/all/tesla-model_y/
+                          - text: Shop now
+                          - generic [ref=e224] [cursor=pointer]: for Tesla Model Y
+                  - listitem [ref=e225]:
+                    - generic [ref=e231]:
+                      - generic:
+                        - paragraph [ref=e232]: Ford Mustang Mach-E
+                        - link "Shop now for Ford Mustang Mach-E" [ref=e234] [cursor=pointer]:
+                          - /url: /shopping/all/ford-mustang_mach_e/
+                          - text: Shop now
+                          - generic [ref=e235] [cursor=pointer]: for Ford Mustang Mach-E
+                  - listitem [ref=e236]:
+                    - generic [ref=e242]:
+                      - generic:
+                        - paragraph [ref=e243]: Ford F-150 Lightning
+                        - link "Shop now for Ford F-150 Lightning" [ref=e245] [cursor=pointer]:
+                          - /url: /shopping/all/ford-f_150_lightning/
+                          - text: Shop now
+                          - generic [ref=e246] [cursor=pointer]: for Ford F-150 Lightning
+                  - listitem [ref=e247]:
+                    - generic [ref=e253]:
+                      - generic:
+                        - paragraph [ref=e254]: BMW i3
+                        - link "Shop now for BMW i3" [ref=e256] [cursor=pointer]:
+                          - /url: /shopping/all/bmw-i3/
+                          - text: Shop now
+                          - generic [ref=e257] [cursor=pointer]: for BMW i3
+                  - listitem [ref=e258]:
+                    - generic [ref=e264]:
+                      - generic:
+                        - paragraph [ref=e265]: What to know before purchasing an EV
+                        - link "Watch EV101 Series Now for What to know before purchasing an EV" [ref=e267] [cursor=pointer]:
+                          - /url: /electric-cars/#ev-101
+                          - text: Watch EV101 Series Now
+                          - generic [ref=e268] [cursor=pointer]: for What to know before purchasing an EV
+                - generic [ref=e269]:
+                  - link "See more electric cars" [ref=e271] [cursor=pointer]:
+                    - /url: /shopping/all/electric/
+                  - link "Shop all cars" [ref=e274] [cursor=pointer]:
+                    - /url: /shopping/all/
+      - generic [ref=e278]:
+        - heading "Your Garage" [level=2] [ref=e279]
+        - generic [ref=e281]:
+          - heading "Add your car. Track its value." [level=3] [ref=e282]
+          - paragraph [ref=e283]:
+            - text: Add your car to Your Garage to track its market value and cash in when the time is right to sell.
+            - link "Learn more" [ref=e285] [cursor=pointer]:
+              - /url: /profile/your-garage
+          - button "Get started" [ref=e289] [cursor=pointer]:
+            - generic:
+              - generic: Get started
+          - paragraph [ref=e290]:
+            - text: Already have an account?
+            - button "Sign in" [ref=e292] [cursor=pointer]:
+              - generic:
+                - generic: Sign in
+            - text: .
+      - generic [ref=e297]:
+        - heading "Sell your car your way" [level=2] [ref=e298]
+        - generic [ref=e299]:
+          - paragraph [ref=e301]:
+            - strong [ref=e302]: Get an offer online
+            - text: and quickly complete the transaction with a local dealer.
+          - generic [ref=e303]: OR
+          - paragraph [ref=e305]:
+            - strong [ref=e306]: List your car for free.
+            - text: Set your own price and easily showcase your car on Cars.com.
+        - link "Get started" [ref=e308] [cursor=pointer]:
+          - /url: /sell
+          - generic:
+            - generic: Get started
+      - generic [ref=e311]:
+        - heading "Trending searches near you" [level=2] [ref=e313]
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - button "Scroll tab list to right" [ref=e318] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Scroll tab list to right":
+                      - img
+            - tablist "Trending searches near you" [ref=e319]:
+              - generic:
+                - tab "2026+ SUV Under $50K" [selected] [ref=e320]:
+                  - generic [ref=e321] [cursor=pointer]:
+                    - generic: 2026+ SUV Under $50K
+                - tab "SUV" [ref=e322]:
+                  - generic [ref=e323] [cursor=pointer]:
+                    - generic: SUV
+                - tab "BMW" [ref=e324]:
+                  - generic [ref=e325] [cursor=pointer]:
+                    - generic: BMW
+                - tab "2026+ Passenger Van" [ref=e326]:
+                  - generic [ref=e327] [cursor=pointer]:
+                    - generic: 2026+ Passenger Van
+                - tab "Chevrolet Corvette" [ref=e328]:
+                  - generic [ref=e329] [cursor=pointer]:
+                    - generic: Chevrolet Corvette
+                - tab "Ford F-250 2023+ Diesel" [ref=e330]:
+                  - generic [ref=e331] [cursor=pointer]:
+                    - generic: Ford F-250 2023+ Diesel
+                - tab "Used Audi A4 2021+ Under $35K" [ref=e332]:
+                  - generic [ref=e333] [cursor=pointer]:
+                    - generic: Used Audi A4 2021+ Under $35K
+                - tab "Used Under $10K" [ref=e334]:
+                  - generic [ref=e335] [cursor=pointer]:
+                    - generic: Used Under $10K
+                - tab "Land Rover Range Rover 2023+" [ref=e336]:
+                  - generic [ref=e337] [cursor=pointer]:
+                    - generic: Land Rover Range Rover 2023+
+                - tab "2025+ Sedan Under $100K" [ref=e338]:
+                  - generic [ref=e339] [cursor=pointer]:
+                    - generic: 2025+ Sedan Under $100K
+          - tabpanel "2026+ SUV Under $50K" [ref=e341]:
+            - generic [ref=e342]:
+              - generic:
+                - list [ref=e343]:
+                  - listitem [ref=e344]:
+                    - generic [ref=e350]:
+                      - generic:
+                        - generic [ref=e351]:
+                          - generic: Sponsored
+                        - generic [ref=e352]:
+                          - link "New Hyundai SANTA FE" [ref=e354] [cursor=pointer]:
+                            - /url: /vehicledetail/bb160d54-4d20-44b3-b31c-d9cf0778dbed/?attribution_type=isa
+                            - generic [ref=e355] [cursor=pointer]: New Hyundai SANTA FE
+                          - generic [ref=e357]: $40,536
+                          - generic [ref=e358]: 6 mi.
+                  - listitem [ref=e359]:
+                    - generic [ref=e365]:
+                      - generic:
+                        - generic [ref=e366]:
+                          - generic: Sponsored
+                        - generic [ref=e367]:
+                          - link "New Chevrolet Trailblazer" [ref=e369] [cursor=pointer]:
+                            - /url: /vehicledetail/416a1492-be91-42d0-a884-cba021ca6cd9/?attribution_type=isa
+                            - generic [ref=e370] [cursor=pointer]: New Chevrolet Trailblazer
+                          - generic [ref=e372]: $30,124
+                          - generic [ref=e373]: 4 mi.
+                  - listitem [ref=e374]:
+                    - generic [ref=e381]:
+                      - link "New Chevrolet Equinox" [ref=e383] [cursor=pointer]:
+                        - /url: /vehicledetail/37a52bfd-d3bb-437e-a5fd-6bdb4a047c14/
+                        - generic [ref=e384] [cursor=pointer]: New Chevrolet Equinox
+                      - generic [ref=e386]: $31,300
+                      - generic [ref=e387]: 3 mi.
+                  - listitem [ref=e388]:
+                    - generic [ref=e395]:
+                      - link "New Chevrolet Trax" [ref=e397] [cursor=pointer]:
+                        - /url: /vehicledetail/adfdeca2-e1ac-4cad-9f70-d4a1b9faeb2a/
+                        - generic [ref=e398] [cursor=pointer]: New Chevrolet Trax
+                      - generic [ref=e400]: $26,180
+                      - generic [ref=e401]: 3 mi.
+                  - listitem [ref=e402]:
+                    - generic [ref=e409]:
+                      - link "New Chevrolet Traverse" [ref=e411] [cursor=pointer]:
+                        - /url: /vehicledetail/10edadb8-c5c8-4310-886b-75e1f181f0a3/
+                        - generic [ref=e412] [cursor=pointer]: New Chevrolet Traverse
+                      - generic [ref=e414]: $44,212
+                      - generic [ref=e415]: 3 mi.
+                  - listitem [ref=e416]:
+                    - generic [ref=e423]:
+                      - link "New Kia Sorento" [ref=e425] [cursor=pointer]:
+                        - /url: /vehicledetail/4de376d2-b54d-4162-927f-20f8b301f854/
+                        - generic [ref=e426] [cursor=pointer]: New Kia Sorento
+                      - generic [ref=e428]: $44,688
+                      - generic [ref=e429]: 1 mi.
+                  - listitem [ref=e430]:
+                    - generic [ref=e437]:
+                      - link "New Dodge Durango" [ref=e439] [cursor=pointer]:
+                        - /url: /vehicledetail/074bded0-0d92-40d8-9cca-e02d1543e079/
+                        - generic [ref=e440] [cursor=pointer]: New Dodge Durango
+                      - generic [ref=e442]: $46,085
+                      - generic [ref=e443]: 0 mi.
+                  - listitem [ref=e444]:
+                    - generic [ref=e451]:
+                      - link "New Hyundai PALISADE" [ref=e453] [cursor=pointer]:
+                        - /url: /vehicledetail/05751532-bb2d-47eb-940c-3019425ccf44/
+                        - generic [ref=e454] [cursor=pointer]: New Hyundai PALISADE
+                      - generic [ref=e456]: $46,605
+                      - generic [ref=e457]: 18 mi.
+                  - listitem [ref=e458]:
+                    - generic [ref=e465]:
+                      - link "New Dodge Durango" [ref=e467] [cursor=pointer]:
+                        - /url: /vehicledetail/d69ca3b9-d14e-455a-ace9-0ad3f5f70c67/
+                        - generic [ref=e468] [cursor=pointer]: New Dodge Durango
+                      - generic [ref=e470]: $46,625
+                      - generic [ref=e471]: 8 mi.
+                  - listitem [ref=e472]:
+                    - generic [ref=e479]:
+                      - link "New Hyundai SANTA FE" [ref=e481] [cursor=pointer]:
+                        - /url: /vehicledetail/6eb64fc2-8e14-43d9-831e-163da4888517/
+                        - generic [ref=e482] [cursor=pointer]: New Hyundai SANTA FE
+                      - generic [ref=e484]: $38,059
+                - link "See more 2026+ SUV Under $50K" [ref=e487] [cursor=pointer]:
+                  - /url: /shopping/results/?&stock_type=all&year_min=2026&body_style_slugs[]=suv&list_price_max=50000
+      - generic [ref=e490]:
+        - generic [ref=e492]:
+          - heading "Ready for a new ride? Explore the latest vehicles" [level=2] [ref=e493]
+          - list [ref=e496]:
+            - listitem [ref=e497]: View latest models
+            - listitem [ref=e498]: Compare vehicles side-by-side
+            - listitem [ref=e499]: Discover award winning cars
+          - generic [ref=e501]:
+            - generic:
+              - link "Research new cars" [ref=e503] [cursor=pointer]:
+                - /url: /new-cars/
+                - generic:
+                  - generic: Research new cars
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+              - link "Compare cars" [ref=e505] [cursor=pointer]:
+                - /url: /research/compare/
+                - generic:
+                  - generic: Compare cars
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+        - generic [ref=e506]:
+          - generic [ref=e507]:
+            - generic [ref=e509]:
+              - generic: Featured storefront
+            - heading "Hyundai" [level=2] [ref=e511]
+            - generic [ref=e512]: Hyundai is making a safer road for us all. Their SUVs and EVs have been recognized throughout the industry for their award-winning safety.
+            - link "About this brand" [ref=e515] [cursor=pointer]:
+              - /url: /research/hyundai/
+              - generic:
+                - generic: About this brand
+          - img [ref=e519]
+      - generic [ref=e522]:
+        - heading "Compare top rated vehicles" [level=2] [ref=e524]
+        - generic [ref=e526]:
+          - generic:
+            - link "2024 Tesla Model Y vs. 2024 Ford Mustang Mach-E" [ref=e527] [cursor=pointer]:
+              - /url: /research/compare/?vehicles[]=ford-mustang_mach_e-2024&vehicles[]=tesla-model_y-2024
+              - generic [ref=e529] [cursor=pointer]: 2024 Tesla Model Y vs. 2024 Ford Mustang Mach-E
+            - link "2024 Honda Accord vs. 2024 Toyota Camry" [ref=e530] [cursor=pointer]:
+              - /url: /research/compare/?vehicles[]=honda-accord-2024&vehicles[]=toyota-camry-2024
+              - generic [ref=e532] [cursor=pointer]: 2024 Honda Accord vs. 2024 Toyota Camry
+            - link "2024 Honda CR-V vs. 2024 Toyota RAV4" [ref=e533] [cursor=pointer]:
+              - /url: /research/compare/?vehicles[]=honda-cr_v-2024&vehicles[]=toyota-rav4-2024
+              - generic [ref=e535] [cursor=pointer]: 2024 Honda CR-V vs. 2024 Toyota RAV4
+      - generic [ref=e537]:
+        - generic:
+          - heading "News & reviews" [level=2] [ref=e538]
+          - generic [ref=e539]:
+            - list [ref=e541]:
+              - listitem [ref=e542]:
+                - link "genesis-gv60-2026-exterior-oem-01 How Much Is the 2026 Genesis GV60?" [ref=e543] [cursor=pointer]:
+                  - /url: /articles/how-much-is-the-2026-genesis-gv60-515967/
+                  - img "genesis-gv60-2026-exterior-oem-01" [ref=e545] [cursor=pointer]
+                  - heading "How Much Is the 2026 Genesis GV60?" [level=3] [ref=e546] [cursor=pointer]
+              - listitem [ref=e547]:
+                - link "ford-taurus-2018-exterior-front-three-quarter-oem Ford Recalls Nearly 102,000 Taurus Sedans for Door Trim" [ref=e548] [cursor=pointer]:
+                  - /url: /articles/ford-recalls-nearly-102000-taurus-sedans-for-door-trim-515975/
+                  - img "ford-taurus-2018-exterior-front-three-quarter-oem" [ref=e550] [cursor=pointer]
+                  - heading "Ford Recalls Nearly 102,000 Taurus Sedans for Door Trim" [level=3] [ref=e551] [cursor=pointer]
+              - listitem [ref=e552]:
+                - link "toyota-corolla-cross-2026-exterior-oem-03 How Much Is the 2026 Toyota Corolla Cross?" [ref=e553] [cursor=pointer]:
+                  - /url: /articles/how-much-is-the-2026-toyota-corolla-cross-515911/
+                  - img "toyota-corolla-cross-2026-exterior-oem-03" [ref=e555] [cursor=pointer]
+                  - heading "How Much Is the 2026 Toyota Corolla Cross?" [level=3] [ref=e556] [cursor=pointer]
+              - listitem [ref=e557]:
+                - link "dodge-charger-daytona-scat-pack-4-door-2026-01-exterior-profile Can the 2026 Dodge Charger Daytona EV Do Woodward Dream Cruise?" [ref=e558] [cursor=pointer]:
+                  - /url: /articles/can-the-2026-dodge-charger-daytona-ev-do-woodward-dream-cruise-515502/
+                  - img "dodge-charger-daytona-scat-pack-4-door-2026-01-exterior-profile" [ref=e560] [cursor=pointer]
+                  - heading "Can the 2026 Dodge Charger Daytona EV Do Woodward Dream Cruise?" [level=3] [ref=e561] [cursor=pointer]
+            - generic [ref=e562]:
+              - heading "Trending near you" [level=3] [ref=e563]
+              - list [ref=e566]:
+                - listitem [ref=e567]:
+                  - generic [ref=e568]:
+                    - paragraph [ref=e569]: "1"
+                    - link "2018 Kia Stinger and Stinger Gt First Drive" [ref=e570] [cursor=pointer]:
+                      - /url: https://www.cars.com/articles/2018-kia-stinger-and-stinger-gt-first-drive-1420697477898/
+                      - paragraph [ref=e571] [cursor=pointer]: 2018 Kia Stinger and Stinger Gt First Drive
+                - listitem [ref=e572]:
+                  - generic [ref=e573]:
+                    - paragraph [ref=e574]: "2"
+                    - link "How Much Is the 2026 Toyota Land Cruiser?" [ref=e575] [cursor=pointer]:
+                      - /url: https://www.cars.com/articles/how-much-is-the-2026-toyota-land-cruiser-515468/
+                      - paragraph [ref=e576] [cursor=pointer]: How Much Is the 2026 Toyota Land Cruiser?
+                - listitem [ref=e577]:
+                  - generic [ref=e578]:
+                    - paragraph [ref=e579]: "3"
+                    - link "Mercedes Suvs There Are Many So Which is Right for You" [ref=e580] [cursor=pointer]:
+                      - /url: https://www.cars.com/articles/mercedes-suvs-there-are-many-so-which-is-right-for-you-435301/
+                      - paragraph [ref=e581] [cursor=pointer]: Mercedes Suvs There Are Many So Which is Right for You
+                - listitem [ref=e582]:
+                  - generic [ref=e583]:
+                    - paragraph [ref=e584]: "4"
+                    - link "2020 Mercedes Benz Glc300 Amg 63 Review Fast and Fancy Family Haulers" [ref=e585] [cursor=pointer]:
+                      - /url: https://www.cars.com/articles/2020-mercedes-benz-glc300-amg-63-review-fast-and-fancy-family-haulers-420492/
+                      - paragraph [ref=e586] [cursor=pointer]: 2020 Mercedes Benz Glc300 Amg 63 Review Fast and Fancy Family Haulers
+                - listitem [ref=e587]:
+                  - generic [ref=e588]:
+                    - paragraph [ref=e589]: "5"
+                    - link "Electric Cars With the Longest Range" [ref=e590] [cursor=pointer]:
+                      - /url: https://www.cars.com/articles/electric-vehicles-with-the-longest-range-422227/
+                      - paragraph [ref=e591] [cursor=pointer]: Electric Cars With the Longest Range
+              - link "See all news" [ref=e593] [cursor=pointer]:
+                - /url: /news/
+      - generic [ref=e595]:
+        - heading "Popular searches" [level=2] [ref=e597]
+        - generic:
+          - button "Popular new cars for sale" [ref=e600] [cursor=pointer]:
+            - heading "Popular new cars for sale" [level=3] [ref=e602] [cursor=pointer]
+            - img [ref=e605] [cursor=pointer]
+          - button "Popular used cars for sale" [ref=e609] [cursor=pointer]:
+            - heading "Popular used cars for sale" [level=3] [ref=e611] [cursor=pointer]
+            - img [ref=e614] [cursor=pointer]
+          - button "Research popular new cars for sale" [ref=e618] [cursor=pointer]:
+            - heading "Research popular new cars for sale" [level=3] [ref=e620] [cursor=pointer]
+            - img [ref=e623] [cursor=pointer]
+          - button "Research popular used cars" [ref=e627] [cursor=pointer]:
+            - heading "Research popular used cars" [level=3] [ref=e629] [cursor=pointer]
+            - img [ref=e632] [cursor=pointer]
+  - contentinfo [ref=e634]:
+    - generic [ref=e635]:
+      - generic:
+        - generic [ref=e636]:
+          - generic [ref=e638]:
+            - button "Shop" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Shop" [level=3]
+            - region "Shop" [ref=e639]:
+              - list [ref=e640]:
+                - listitem [ref=e641]:
+                  - link "Used Cars" [ref=e642] [cursor=pointer]:
+                    - /url: /shopping/
+                - listitem [ref=e643]:
+                  - link "New Cars" [ref=e644] [cursor=pointer]:
+                    - /url: /new-cars/
+                - listitem [ref=e645]:
+                  - link "Certified Pre-Owned" [ref=e646] [cursor=pointer]:
+                    - /url: /cpo/
+                - listitem [ref=e647]:
+                  - link "Cars for Sale by Owner" [ref=e648] [cursor=pointer]:
+                    - /url: /shopping/for-sale-by-owner/
+                - listitem [ref=e649]:
+                  - link "Find a Dealer" [ref=e650] [cursor=pointer]:
+                    - /url: /dealers/buy/
+                - listitem [ref=e651]:
+                  - link "Pickup Trucks Buying Guide" [ref=e652] [cursor=pointer]:
+                    - /url: /trucks/
+                - listitem [ref=e653]:
+                  - link "Electric Cars Buying Guide" [ref=e654] [cursor=pointer]:
+                    - /url: /electric-cars/
+                - listitem [ref=e655]:
+                  - link "Financing" [ref=e656] [cursor=pointer]:
+                    - /url: /finance/
+          - generic [ref=e658]:
+            - button "Research & News" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Research & News" [level=3]
+            - region "Research & News" [ref=e659]:
+              - list [ref=e660]:
+                - listitem [ref=e661]:
+                  - link "Consumer Car Reviews" [ref=e662] [cursor=pointer]:
+                    - /url: /reviews/
+                - listitem [ref=e663]:
+                  - link "Car News & Expert Reviews" [ref=e664] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=e665]:
+                  - link "Compare Cars" [ref=e666] [cursor=pointer]:
+                    - /url: /research/compare/
+                - listitem [ref=e667]:
+                  - link "Best Cars Rankings" [ref=e668] [cursor=pointer]:
+                    - /url: /awards/
+                - listitem [ref=e669]:
+                  - link "Safety & Recalls" [ref=e670] [cursor=pointer]:
+                    - /url: /recalls/
+                - listitem [ref=e671]:
+                  - link "American-Made Index" [ref=e672] [cursor=pointer]:
+                    - /url: /american-made-index/
+                - listitem [ref=e673]:
+                  - link "Video Reviews" [ref=e674] [cursor=pointer]:
+                    - /url: /videos/
+          - generic [ref=e676]:
+            - button "Sell" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Sell" [level=3]
+            - region "Sell" [ref=e677]:
+              - list [ref=e678]:
+                - listitem [ref=e679]:
+                  - link "Sell Your Car" [ref=e680] [cursor=pointer]:
+                    - /url: /sell/
+                - listitem [ref=e681]:
+                  - link "Get Instant Offer" [ref=e682] [cursor=pointer]:
+                    - /url: /sell/instant-offer/
+                - listitem [ref=e683]:
+                  - link "Free Listing on Cars.com" [ref=e684] [cursor=pointer]:
+                    - /url: /sell/?privately
+                - listitem [ref=e685]:
+                  - link "Selling Guides & Tips" [ref=e686] [cursor=pointer]:
+                    - /url: /sell/how-to/
+          - generic [ref=e688]:
+            - button "Tools & Services" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Tools & Services" [level=3]
+            - region "Tools & Services" [ref=e689]:
+              - list [ref=e690]:
+                - listitem [ref=e691]:
+                  - link "Car Loan Calculators" [ref=e692] [cursor=pointer]:
+                    - /url: /car-loan-calculator/
+                - listitem [ref=e693]:
+                  - link "Car Affordability Calculator" [ref=e694] [cursor=pointer]:
+                    - /url: /car-affordability-calculator/
+                - listitem [ref=e695]:
+                  - link "Ship a Car" [ref=e696] [cursor=pointer]:
+                    - /url: /car-shipping/
+                - listitem [ref=e697]:
+                  - link "Car Warranty" [ref=e698] [cursor=pointer]:
+                    - /url: /car-warranty/
+                - listitem [ref=e699]:
+                  - link "Car Insurance" [ref=e700] [cursor=pointer]:
+                    - /url: /car-insurance/
+                - listitem [ref=e701]:
+                  - link "Car Maintenance" [ref=e702] [cursor=pointer]:
+                    - /url: /auto-repair/expert-tips/
+                - listitem [ref=e703]:
+                  - link "Site Map" [ref=e704] [cursor=pointer]:
+                    - /url: /sitemap/
+          - generic [ref=e706]:
+            - button "Top Metro Areas" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Top Metro Areas" [level=3]
+            - region "Top Metro Areas" [ref=e707]:
+              - list [ref=e708]:
+                - listitem [ref=e709]:
+                  - link "Chicago, IL" [ref=e710] [cursor=pointer]:
+                    - /url: /shopping/chicago-il/
+                - listitem [ref=e711]:
+                  - link "Houston, TX" [ref=e712] [cursor=pointer]:
+                    - /url: /shopping/houston-tx/
+                - listitem [ref=e713]:
+                  - link "Los Angeles, CA" [ref=e714] [cursor=pointer]:
+                    - /url: /shopping/los_angeles-ca/
+                - listitem [ref=e715]:
+                  - link "Pheonix, AZ" [ref=e716] [cursor=pointer]:
+                    - /url: /shopping/phoenix-az/
+                - listitem [ref=e717]:
+                  - link "Atlanta, GA" [ref=e718] [cursor=pointer]:
+                    - /url: /shopping/atlanta-ga/
+                - listitem [ref=e719]:
+                  - link "Philadelphia, PA" [ref=e720] [cursor=pointer]:
+                    - /url: /shopping/philadelphia-pa/
+                - listitem [ref=e721]:
+                  - link "New York, NY" [ref=e722] [cursor=pointer]:
+                    - /url: /shopping/new_york-ny/
+                - listitem [ref=e723]:
+                  - link "San Diego, CA" [ref=e724] [cursor=pointer]:
+                    - /url: /shopping/san_diego-ca/
+          - generic [ref=e725]:
+            - generic [ref=e727]:
+              - button "For Dealers" [expanded]:
+                - generic:
+                  - generic:
+                    - heading "For Dealers" [level=3]
+              - region "For Dealers" [ref=e728]:
+                - list [ref=e729]:
+                  - listitem [ref=e730]:
+                    - link "Explore Cars Commerce, External link" [ref=e731] [cursor=pointer]:
+                      - /url: https://www.carscommerce.inc/
+                      - text: Explore Cars Commerce
+                      - img [ref=e734] [cursor=pointer]
+                  - listitem [ref=e736]:
+                    - link "Log In To Your Platform, External link" [ref=e737] [cursor=pointer]:
+                      - /url: https://hub.carscommerce.inc/
+                      - text: Log In To Your Platform
+                      - img [ref=e740] [cursor=pointer]
+            - generic [ref=e743]:
+              - generic:
+                - generic [ref=e745]:
+                  - generic:
+                    - generic [ref=e747]: Our Mobile App
+                    - generic [ref=e749]:
+                      - generic:
+                        - link "Download on the App Store" [ref=e750] [cursor=pointer]:
+                          - /url: https://apps.apple.com/us/app/cars-com-new-used-cars/id353263352
+                          - img "Download on the App Store" [ref=e751] [cursor=pointer]
+                        - link "Get it on Google Play" [ref=e752] [cursor=pointer]:
+                          - /url: https://play.google.com/store/apps/details?id=com.cars.android&hl=en_US
+                          - img "Get it on Google Play" [ref=e753] [cursor=pointer]
+                - generic [ref=e755]:
+                  - generic:
+                    - generic [ref=e757]: Connect With Us
+                    - list [ref=e759]:
+                      - listitem [ref=e760]:
+                        - link "TikTok, External link" [ref=e761] [cursor=pointer]:
+                          - /url: https://www.tiktok.com/@carsdotcom
+                          - img [ref=e764] [cursor=pointer]
+                      - listitem [ref=e766]:
+                        - link "Facebook, External link" [ref=e767] [cursor=pointer]:
+                          - /url: https://www.facebook.com/CarsDotCom/
+                          - img [ref=e770] [cursor=pointer]
+                      - listitem [ref=e772]:
+                        - link "Youtube, External link" [ref=e773] [cursor=pointer]:
+                          - /url: https://www.youtube.com/user/Carscom/
+                          - img [ref=e776] [cursor=pointer]
+                      - listitem [ref=e778]:
+                        - link "Instagram, External link" [ref=e779] [cursor=pointer]:
+                          - /url: https://www.instagram.com/carsdotcom/
+                          - img [ref=e782] [cursor=pointer]
+                      - listitem [ref=e786]:
+                        - link "Pinterest, External link" [ref=e787] [cursor=pointer]:
+                          - /url: https://www.pinterest.com/carsdotcom/
+                          - img [ref=e790] [cursor=pointer]
+          - generic [ref=e795]:
+            - button "Popular Car Models" [expanded]:
+              - generic:
+                - generic:
+                  - heading "Popular Car Models" [level=3]
+            - region "Popular Car Models" [ref=e796]:
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - heading "Toyota" [level=3] [ref=e799]:
+                    - link "Toyota" [ref=e800] [cursor=pointer]:
+                      - /url: /research/toyota/
+                  - list [ref=e801]:
+                    - listitem [ref=e802]:
+                      - link "Toyota RAV4" [ref=e803] [cursor=pointer]:
+                        - /url: /shopping/toyota-rav4/
+                    - listitem [ref=e804]:
+                      - link "Toyota Prius" [ref=e805] [cursor=pointer]:
+                        - /url: /shopping/toyota-prius/
+                    - listitem [ref=e806]:
+                      - link "Toyota Tacoma" [ref=e807] [cursor=pointer]:
+                        - /url: /shopping/toyota-tacoma/
+                    - listitem [ref=e808]:
+                      - link "Toyota Camry" [ref=e809] [cursor=pointer]:
+                        - /url: /shopping/toyota-camry/
+                    - listitem [ref=e810]:
+                      - link "Toyota 4Runner" [ref=e811] [cursor=pointer]:
+                        - /url: /shopping/toyota-4runner/
+                - generic [ref=e812]:
+                  - heading "Honda" [level=3] [ref=e813]:
+                    - link "Honda" [ref=e814] [cursor=pointer]:
+                      - /url: /research/honda/
+                  - list [ref=e815]:
+                    - listitem [ref=e816]:
+                      - link "Honda CR-V" [ref=e817] [cursor=pointer]:
+                        - /url: /shopping/honda-cr_v/
+                    - listitem [ref=e818]:
+                      - link "Honda Civic" [ref=e819] [cursor=pointer]:
+                        - /url: /shopping/honda-civic/
+                    - listitem [ref=e820]:
+                      - link "Honda Accord" [ref=e821] [cursor=pointer]:
+                        - /url: /shopping/honda-accord/
+                    - listitem [ref=e822]:
+                      - link "Honda Pilot" [ref=e823] [cursor=pointer]:
+                        - /url: /shopping/honda-pilot/
+                    - listitem [ref=e824]:
+                      - link "Honda HR-V" [ref=e825] [cursor=pointer]:
+                        - /url: /shopping/honda-hr_v/
+                - generic [ref=e826]:
+                  - heading "Ford" [level=3] [ref=e827]:
+                    - link "Ford" [ref=e828] [cursor=pointer]:
+                      - /url: /research/ford/
+                  - list [ref=e829]:
+                    - listitem [ref=e830]:
+                      - link "Ford Maverick" [ref=e831] [cursor=pointer]:
+                        - /url: /shopping/ford-maverick/
+                    - listitem [ref=e832]:
+                      - link "Ford Bronco" [ref=e833] [cursor=pointer]:
+                        - /url: /shopping/ford-bronco/
+                    - listitem [ref=e834]:
+                      - link "Ford F-150" [ref=e835] [cursor=pointer]:
+                        - /url: /shopping/ford-f_150/
+                    - listitem [ref=e836]:
+                      - link "Ford Mustang Mach-E" [ref=e837] [cursor=pointer]:
+                        - /url: /shopping/ford-mustang_mach_e/
+                    - listitem [ref=e838]:
+                      - link "Ford Explorer" [ref=e839] [cursor=pointer]:
+                        - /url: /shopping/ford-explorer/
+                - generic [ref=e840]:
+                  - heading "Jeep" [level=3] [ref=e841]:
+                    - link "Jeep" [ref=e842] [cursor=pointer]:
+                      - /url: /research/jeep/
+                  - list [ref=e843]:
+                    - listitem [ref=e844]:
+                      - link "Jeep Wrangler" [ref=e845] [cursor=pointer]:
+                        - /url: /shopping/jeep-wrangler/
+                    - listitem [ref=e846]:
+                      - link "Jeep Grand Cherokee" [ref=e847] [cursor=pointer]:
+                        - /url: /shopping/jeep-grand_cherokee/
+                    - listitem [ref=e848]:
+                      - link "Jeep Wagoneer" [ref=e849] [cursor=pointer]:
+                        - /url: /shopping/jeep-wagoneer/
+                    - listitem [ref=e850]:
+                      - link "Jeep Grand Wagoneer" [ref=e851] [cursor=pointer]:
+                        - /url: /shopping/jeep-grand_wagoneer/
+                    - listitem [ref=e852]:
+                      - link "Jeep Cherokee" [ref=e853] [cursor=pointer]:
+                        - /url: /shopping/jeep-cherokee/
+                - generic [ref=e854]:
+                  - heading "Chevrolet" [level=3] [ref=e855]:
+                    - link "Chevrolet" [ref=e856] [cursor=pointer]:
+                      - /url: /research/chevrolet/
+                  - list [ref=e857]:
+                    - listitem [ref=e858]:
+                      - link "Chevorlet Corvette" [ref=e859] [cursor=pointer]:
+                        - /url: /shopping/chevrolet-corvette/
+                    - listitem [ref=e860]:
+                      - link "Chevorlet Silverado 1500" [ref=e861] [cursor=pointer]:
+                        - /url: /shopping/chevrolet-silverado_1500/
+                    - listitem [ref=e862]:
+                      - link "Chevorlet Traverse" [ref=e863] [cursor=pointer]:
+                        - /url: /shopping/chevrolet-traverse/
+                    - listitem [ref=e864]:
+                      - link "Chevorlet Tahoe" [ref=e865] [cursor=pointer]:
+                        - /url: /shopping/chevrolet-tahoe/
+                    - listitem [ref=e866]:
+                      - link "Chevorlet Colorado" [ref=e867] [cursor=pointer]:
+                        - /url: /shopping/chevrolet-colorado/
+                - generic [ref=e868]:
+                  - heading "Kia" [level=3] [ref=e869]:
+                    - link "Kia" [ref=e870] [cursor=pointer]:
+                      - /url: /research/kia/
+                  - list [ref=e871]:
+                    - listitem [ref=e872]:
+                      - link "Kia Sportage" [ref=e873] [cursor=pointer]:
+                        - /url: /shopping/kia-sportage/
+                    - listitem [ref=e874]:
+                      - link "Kia Sorento" [ref=e875] [cursor=pointer]:
+                        - /url: /shopping/kia-sorento/
+                    - listitem [ref=e876]:
+                      - link "Kia Stinger" [ref=e877] [cursor=pointer]:
+                        - /url: /shopping/kia-stinger/
+                    - listitem [ref=e878]:
+                      - link "Kia K5" [ref=e879] [cursor=pointer]:
+                        - /url: /shopping/kia-k5/
+                    - listitem [ref=e880]:
+                      - link "Kia EV6" [ref=e881] [cursor=pointer]:
+                        - /url: /shopping/kia-ev6/
+        - generic [ref=e882]:
+          - generic [ref=e884]:
+            - link "About Cars.com" [ref=e886] [cursor=pointer]:
+              - /url: /about/
+            - link "Contact Us" [ref=e888] [cursor=pointer]:
+              - /url: /contact/
+            - link "Investor Relations, External link" [ref=e890] [cursor=pointer]:
+              - /url: https://investor.cars.com/overview/default.aspx
+              - text: Investor Relations
+              - img [ref=e893] [cursor=pointer]
+            - link "Careers" [ref=e896] [cursor=pointer]:
+              - /url: /careers/
+            - link "Licensing & Rights, External link" [ref=e898] [cursor=pointer]:
+              - /url: https://info.wrightsmedia.com/cars-licensing-reprints
+              - text: Licensing & Rights
+              - img [ref=e901] [cursor=pointer]
+            - link "Fraud Awareness" [ref=e904] [cursor=pointer]:
+              - /url: /fraud-awareness/
+            - link "Feedback" [ref=e906] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e907]:
+            - list [ref=e908]:
+              - listitem [ref=e909]:
+                - link "Terms & Conditions of Use" [ref=e910] [cursor=pointer]:
+                  - /url: /about/terms/
+              - listitem [ref=e911]:
+                - link "Privacy Notice" [ref=e912] [cursor=pointer]:
+                  - /url: /about/privacy/
+              - listitem [ref=e913]:
+                - link "California Privacy Notice" [ref=e914] [cursor=pointer]:
+                  - /url: /about/ccpa-privacy-notice/
+              - listitem [ref=e915]:
+                - link "My Privacy ChoicesCalifornia Consumer Privacy Act (CCPA) Opt-Out Icon" [ref=e916] [cursor=pointer]:
+                  - /url: /about/ccpa-privacy-notice/#exercising-access-use-limitation-data-portability-deletion-and-correction-rights
+                  - text: My Privacy Choices
+                  - img "California Consumer Privacy Act (CCPA) Opt-Out Icon"
+              - listitem [ref=e917]:
+                - link "Cookie Preferences" [ref=e918] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e919]:
+                - link "Accessibility Statement" [ref=e920] [cursor=pointer]:
+                  - /url: /about/accessibility/
+              - listitem [ref=e921]:
+                - link "Ad Choices" [ref=e922] [cursor=pointer]:
+                  - /url: /about/ad-choices/
+            - generic [ref=e923]: © 2025 Cars.com. All rights reserved.
+  - region "Cookie banner" [active] [ref=e924]:
+    - alertdialog "Privacy" [ref=e925]:
+      - generic [ref=e927]:
+        - generic [ref=e930]: This website uses cookies and similar technologies to enable our website functionalities. We also share information about your use of our site with our social media, advertising and analytics partners. For more details see "Cookie preferences".
+        - generic [ref=e932]:
+          - button "Cookie preferences" [ref=e933] [cursor=pointer]
+          - button "Accept all cookies" [ref=e934] [cursor=pointer]
+      - button "Close" [ref=e936] [cursor=pointer]
+```
