@@ -7,10 +7,10 @@ export class HomepageTitle{
     mainTitle: Locator
 
 constructor(page: Page){
-    this.mainTitle = page.locator('h1[class="hero-title"]')
+    this.mainTitle = page.locator('h1[class="hero-title "]')
 }
 
-async mainTitleVisibility(){
+async mainTitleVisibility():Promise<void>{
     await expect(this.mainTitle).toHaveText('Imagine the possibilities')
 }
 }
