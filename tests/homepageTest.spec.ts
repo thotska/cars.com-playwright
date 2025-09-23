@@ -1,5 +1,6 @@
 import { test } from "@playwright/test"
 import { HomepageTitle } from "../Pages/homepage"
+import { NewCarsPage } from "../Pages/NewCArsPAge"
 
 test("Homepage title validation", async ({ page }) => {
     let homepageTitle = new HomepageTitle(page)
@@ -12,8 +13,10 @@ test("Homepage title validation", async ({ page }) => {
 
 test("Main heather visibility verification", async ({page} )=> {
     let homepageTitle = new HomepageTitle(page)
+    let newCars = new NewCarsPage(page)
     await page.goto('https://www.cars.com/')
     await homepageTitle.clickNewCars()
-    await homepageTitle.mainHeatherVisibility()
+    await newCars.mainHeatherVisibility()
 })
+
 

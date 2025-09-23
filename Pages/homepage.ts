@@ -18,8 +18,8 @@ export class HomepageTitle{
     signInLink: Locator
 
 
-    mainHeather: Locator
-    newCars: Locator
+   
+    newCarsLink: Locator
 
 
 constructor(page: Page){
@@ -35,8 +35,9 @@ constructor(page: Page){
     this.learnMoreLink = page.locator('a[href="/profile/your-garage"]')
     this.getStartedButton = page.locator('spark-button[id="intake-form-add-car"]')
     this.signInLink = page.locator('spark-button[id="sign-in"]')
-    this.mainHeather = page.getByRole('heading', { name: 'Find your next  new car' })
-    this.newCars = page.getByLabel('primary').getByRole('link', { name: 'New Cars' })
+   
+
+    this.newCarsLink = page.getByLabel('primary').getByRole('link', { name: 'New Cars' })
 
 
 }
@@ -70,9 +71,7 @@ async signInClick():Promise<void>{
     await this.getStartedButton.click()
 }
 async clickNewCars(){
-    await this.newCars.click()
+    await this.newCarsLink.click()
 }
-async mainHeatherVisibility(): Promise<void>{
-     expect(this.mainHeather).toHaveText("Find your next new car")
-}
+
 }
